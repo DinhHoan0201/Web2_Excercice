@@ -25,9 +25,9 @@ public class BT2 extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		  String name = request.getParameter("name");
-		    String email = request.getParameter("email");
-		    String message = request.getParameter("message");
+		  String Ten = request.getParameter("ten");
+		    String Email = request.getParameter("email");
+		    String loiNhan = request.getParameter("loinhan");
 
 		    // Process the data
 		    // ...
@@ -35,7 +35,7 @@ public class BT2 extends HttpServlet {
 		    // Send a response to the client
 		    response.setContentType("text/plain");
 		    response.setCharacterEncoding("UTF-8");
-		    response.getWriter().write("Data received and processed successfully!");
+		    response.getWriter().write("Dữ liệu nhận thành công");
 		// TODO Auto-generated method stub
 	}
 
