@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>py.ivs</groupId>
-  <artifactId>SpringMVCBai1Maven</artifactId>
+  <groupId>jp.ivss</groupId>
+  <artifactId>bai321</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>SpringMVCBai1Maven Maven Webapp</name>
+  <name>bai321 Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -19,7 +19,13 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
-<dependencies>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
      <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -53,10 +59,10 @@
             <artifactId>spring-webmvc</artifactId>
             <version>4.3.1.RELEASE</version>
         </dependency>
-   </dependencies>
+  </dependencies>
 
   <build>
-    <finalName>SpringMVCBai1Maven</finalName>
+    <finalName>bai321</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
